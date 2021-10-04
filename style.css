@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+:root {
+    --secondary-font-color: gray;
+}
+
+/* fa icon*/
+
+/* Style all font awesome icons */
+.fa {
+    padding: 15px;
+    margin: 5px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-address-card {
+    background: #776DFE;
+    color: white;
+}
+
+.fa-phone {
+    background: #776DFE;
+    color: white;
+}
+
+.fa-envelope {
+    background: #776DFE;
+    color: white;
+}
+
+.fa-home {
+    background: #776DFE;
+    color: white;
+}
+
+/* Instagram */
+.fa-linkedin {
+    background: #0077B5;
+    color: white;
+}
+
+.page-wrapper {
+    height: 100vh;
+    background: linear-gradient(to right, #776DFE, #87F0FD);
+}
+
+.navbar {
+    height: 10vh;
+    display: flex;
+    line-height: 50px;
+}
+
+.navbar .logo-wrapper {
+    flex-basis: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.logo h1 {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px;
+    color: white;
+}
+
+.navbar .menu-wrapper {
+    height: 10vh;
+    flex-basis: 70%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menu {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.menu ul {
+    list-style: none;
+
+}
+
+.menu ul li {
+    display: inline-block;
+
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 20px;
+    padding-right: 35px;
+    text-align: center;
+    color: white;
+
+}
+
+.menu ul li a:hover {
+
+    color: #DCDCDC;
+    transform: scale(1.5);
+
+}
+
+.menu ul li a:focus {
+    color: #DCDCDC;
+
+}
+
+.menu ul li {
+    transition: transform .4s;
+}
+
+
+.menu ul li:hover {
+    color: #c0c0c0;
+    transform: scale(1.5);
+
+}
+
+
+
+
+.main {
+    height: 70vh;
+    width: 100vw;
+
+}
+
+.card-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 8em;
+}
+
+.card {
+    background: white;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.card-img-wrapper {
+    display: flex;
+    align-self: center;
+    padding: 10px;
+
+}
+
+.card-img {
+    background: url("assets/IMG_20190928_142935.jpg") no-repeat;
+    background-size: cover;
+    width: 450px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+
+
+.card-info {
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.card-info-head {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.card-info-head h1 {
+    font-size: xx-large;
+    color: black;
+    text-align: center;
+}
+
+.card-info-head h3 {
+    font-size: small;
+    color: var(--secondary-font-color);
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+.card-info-contact {
+    color: var(--secondary-font-color);
+    display: flex;
+
+}
+
+
+
+#contact-desc {
+    margin-left: 20px;
+    color: var(--secondary-font-color);
+    line-height: 59px;
+}
+
+.card-info-contact ul {
+    list-style: none;
+}
+
+.card-info-contact ul li {
+    display: block;
+}
+
+
+.card-info-contact a {
+    text-decoration: none;
+    color: var(--secondary-font-color);
+    font-size: 18px;
+}
+
+.card-info-article {
+    padding: 30px 0;
+}
+
+.card-info-article p {
+    color: var(--secondary-font-color);
+    font-size: 16px;
+
+}
+
+.card-info-media {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card-info-media ul {
+    list-style: none;
+    padding-top: 20px;
+}
+
+.card-info-media ul li {
+    display: inline-block;
+}
+
+.card-info-media a {
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.card-info-media a:hover {
+    transition: transform .4s ease;
+    transform: scale(1.1);
+}
+
+.footer {
+    background-color: #DCDCDC;
+    height: 30vh;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.footer p {
+    align-self: flex-end;
+    color: gray;
+    font-size: small;
+}
